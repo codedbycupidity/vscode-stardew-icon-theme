@@ -22,7 +22,7 @@
             "iconPath": "./Sweet_Pea.png"
         },
         "_tsx_file": {
-            "iconPath": "./Strawberry.png"
+            "iconPath": "./Bok_Choy.png"
         },
         "_jsx_file": {
             "iconPath": "./Pancakes.png"
@@ -61,7 +61,7 @@
             "iconPath": "./Secret_Note.png"
         },
         "_node_package": {
-            "iconPath": "./Golden_Relic.png"
+            "iconPath": "./Grape.png"
         },
         "_node_package.lock": {
             "iconPath": "./Golden_Key.png"
@@ -85,7 +85,7 @@
             "iconPath": "./Warp_Totem_Beach.png"
         },
         "_ignore_git_file": {
-            "iconPath": "./Quests.png"
+            "iconPath": "./Melon.png"
         },
         "_ignore_eslint_file": {
             "iconPath": "./Warp_Totem_Farm.png"
@@ -136,7 +136,7 @@
             "iconPath": "./Starfruit.png"
         },
         "_sh_file": {
-            "iconPath": "./Fiber.png"
+            "iconPath": "./Cat_3.png"
         },
         "_AUTHORS_file": {
             "iconPath": "./Coffee_Bean.png"
@@ -265,7 +265,7 @@
             "iconPath": "./Summer_Seeds.png"
         },
         "_FOLDER_STRUCTURE_file": {
-            "iconPath": "./Quests.png"
+            "iconPath": "./Apple.png"
         },
     },
     "rootFolder": "_root_folder",
