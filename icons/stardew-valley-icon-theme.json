@@ -16,7 +16,7 @@
             "iconPath": "./Bin_Opened.png"
         },
         "_javascript_file": {
-            "iconPath": "./Coffee_Bean.png"
+            "iconPath": "./Starfruit.png"
         },
         "_typescript_file": {
             "iconPath": "./Sweet_Pea.png"
@@ -25,7 +25,7 @@
             "iconPath": "./Bok_Choy.png"
         },
         "_jsx_file": {
-            "iconPath": "./Pancakes.png"
+            "iconPath": "./Sunflower.png"
         },
         "_react_file": {
             "iconPath": "./Cat_3.png"
@@ -139,7 +139,7 @@
             "iconPath": "./Cat_3.png"
         },
         "_AUTHORS_file": {
-            "iconPath": "./Coffee_Bean.png"
+            "iconPath": "./Coffee.png"
         },
         "_php_file": {
             "iconPath": "./Parsnip.png"
@@ -151,7 +151,7 @@
             "iconPath": "./Strawberry.png"
         },
         "_java_file": {
-            "iconPath": "./Coffee_Bean.png"
+            "iconPath": "./Coffee.png"
         },
         "_csharp_file": {
             "iconPath": "./Diamond.png"
@@ -256,7 +256,7 @@
             "iconPath": "./Lost_Book.png"
         },
         "_npm_file": {
-            "iconPath": "./Coffee_Bean.png"
+            "iconPath": "./Coffee.png"
         },
         "_yarn_file": {
             "iconPath": "./Cat.png"
@@ -267,6 +267,12 @@
         "_FOLDER_STRUCTURE_file": {
             "iconPath": "./Apple.png"
         },
+        "_auth_file": {
+            "iconPath": "./Key.png"
+        },
+        "_server_file": {
+            "iconPath": "./Salmonberry.png"
+        }
     },
     "rootFolder": "_root_folder",
     "rootFolderExpanded": "_root_folder_expanded",
@@ -347,7 +353,9 @@
         "jest.config.js": "_test_file",
         "jest.config.ts": "_test_file",
         "vitest.config.js": "_test_file",
-        "vitest.config.ts": "_test_file"
+        "vitest.config.ts": "_test_file",
+        "auth.js": "_auth_file",
+        "server.js": "_server_file"
     },
     "fileExtensions": {
         "html": "_html_file",
@@ -475,6 +483,7 @@
         "pub": "_key_file",
         "p12": "_certificate_file",
         "pfx": "_certificate_file",
-        "log": "_log_file"
+        "log": "_log_file",
+        "http": "_php_file"
     }
 }

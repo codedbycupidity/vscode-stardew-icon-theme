@@ -1,4 +1,12 @@
-<h1 align="center">
+To make the icon theme active in VS Code, you need to:
+
+  1. First, package the extension:
+  vsce package
+
+  2. Then install it:
+  code --install-extension stardew-valley-icon-theme-*.vsix
+  
+  <h1 align="center">
     <img src="./icons/Cat.png" alt="logo">
     <br>
     Stardew Valley Icon Theme
