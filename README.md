@@ -24,18 +24,18 @@ This extension uses image files directly from the `icons` folder in `icons.json`
 Open this repo in VSCode and hit F5 to test it out.
 
 You will need to run to develop:
-```yarn install```
-```yarn install -g vsce```
+```npm install```
+```npm install -g @vscode/vsce```
 
 ### To publish a new version to the VS Code Extension Marketplace
 Update the version number in package.json and run:
-```vsce publish```
+```npx @vscode/vsce publish```
 
 ### To package for sharing with others
 Run this command to generate a VSIX file:
- ```vsce package```
+```npx @vscode/vsce package```
 To load this VSIX extension into your VS Code IDE, replacing the file name with the generated one:
-```code --install-extension vscode-stardew-icon-theme-0.0.3.vsix```
+```code --install-extension vscode-stardew-icon-theme-0.0.7.vsix```
 
 ## Resources
 
