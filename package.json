@@ -11,20 +11,9 @@
         "iconThemes": [
             {
                 "id": "vscode-stardew-icon-theme",
-                "label": "Stardew Icon Theme",
-                "path": "./icons.json"
-            },
-            {
-                "id": "vscode-stardew-icon-theme-autumn",
-                "label": "Stardew Icon Theme - Autumn",
-                "path": "./icons-autumn.json"
-            },
-            {
-                "id": "vscode-stardew-icon-theme-winter",
-                "label": "Stardew Icon Theme - Winter",
-                "path": "./icons-winter.json"
+                "label": "Stardew Valley",
+                "path": "./icons/stardew-valley-icon-theme.json"
             }
-
         ]
     },
     "icon": "icons/Spangle.png",

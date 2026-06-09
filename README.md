@@ -1,44 +1,38 @@
-# VSCode Stardew Icon Theme
+# Stardew Valley Icon Theme
 
-A Stardew Valley themed product icon pack!
-Currently for common front-end web development file types
+A Stardew Valley themed file icon pack for VS Code!
+Currently for common front-end web development file types.
 
-<img width="165" alt="Screen Shot 2020-08-31 at 8 26 01 PM" src="https://user-images.githubusercontent.com/7905522/91792254-f5063500-ebc9-11ea-9baa-560540a92613.png">
+![Bar](/resources/Bar.png)
+![Overview](/resources/Overview.png)
 
-### Autumn mode:
+## Installation
 
-<img width="209" alt="Screen Shot 2020-10-02 at 6 08 57 PM" src="https://user-images.githubusercontent.com/7905522/94979891-6e9b8680-04da-11eb-8bd6-5ff0a63ad09f.png">
+### From a VSIX file
+1. Generate a VSIX file:
+   ```
+   vsce package
+   ```
+2. Install the generated file (use the filename `vsce` produced):
+   ```
+   code --install-extension <generated-file>.vsix
+   ```
 
-### Winter mode:
+### From source (local folder)
+1. Symlink this folder into your VS Code extensions directory:
+   ```
+   ln -s /path/to/this-repo ~/.vscode/extensions/stardew-valley-icon-theme
+   ```
+2. Reload VS Code (`Cmd+Shift+P` / `Ctrl+Shift+P` → `Developer: Reload Window`)
 
-<img width="233" alt="Screen Shot 2020-10-27 at 9 45 19 PM" src="https://user-images.githubusercontent.com/7905522/97392155-5121c880-189e-11eb-86de-7c1886be767e.png">
-
-
-### Download at https://marketplace.visualstudio.com/items?itemName=klyap.vscode-stardew-icon-theme
-<img width="739" alt="Screen Shot 2020-10-02 at 4 14 12 PM" src="https://user-images.githubusercontent.com/7905522/94976903-52dcb400-04cb-11eb-8d84-04c2094ea725.png">
-
-## Development
-
-This extension uses image files directly from the `icons` folder in `icons.json`.
-
-Open this repo in VSCode and hit F5 to test it out.
-
-You will need to run to develop:
-```npm install```
-```npm install -g @vscode/vsce```
-
-### To publish a new version to the VS Code Extension Marketplace
-Update the version number in package.json and run:
-```npx @vscode/vsce publish```
-
-### To package for sharing with others
-Run this command to generate a VSIX file:
-```npx @vscode/vsce package```
-To load this VSIX extension into your VS Code IDE, replacing the file name with the generated one:
-```code --install-extension vscode-stardew-icon-theme-0.0.7.vsix```
+## Enabling the theme
+After installing:
+1. Open the Command Palette (`Cmd+Shift+P` / `Ctrl+Shift+P`)
+2. Run `Preferences: File Icon Theme`
+3. Select **Stardew Valley**
+4. If the icons don't update right away, run `Developer: Reload Window`
 
 ## Resources
+Forked from https://github.com/klyap/vscode-stardew-icon-theme
 
 Icons from https://stardewvalleywiki.com/Stardew_Valley_Wiki
-
-

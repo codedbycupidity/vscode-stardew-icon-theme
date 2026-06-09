@@ -1,0 +1,7 @@
+# Whitelist: ignore everything, then include only what the theme needs
+**
+!package.json
+!README.md
+!CHANGELOG.md
+!icons/**
+!resources/**
